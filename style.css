@@ -1,0 +1,65 @@
+
+.container {
+  font-size: 13px;
+  background: #d8d3ef;
+  max-width: 500px;
+  padding: 10px;
+  margin: 15px auto;
+  overflow: auto;
+  border-radius: 20px;
+  border: 5px solid #703b88;
+  font-family: "Lato";
+}
+
+h2, h3 {
+  font-size: 15px;
+  margin: 5px;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+h2 {
+  font-size: 20px;
+  text-align:center;
+  padding: 0;
+  color: #7b767e;
+}
+
+.addNew {
+  text-align: center;
+}
+
+.small-container {
+  padding: 10px;
+  border: 2px solid #8f5da7;
+  border-radius: 5px;
+  background: #FFF;
+  margin: 15px ;
+}
+
+.incompleteList {
+  max-width: 450px;
+}
+
+.completeList {
+  max-width: 450px;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px dashed rgb(206, 198, 211);
+}
+
+button {
+  font-size: 10px;
+}
+
+.delete {
+  float: left;
+}

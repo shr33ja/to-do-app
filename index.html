@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+  </head>
+  <body>
+  <div class="container">
+  
+    <h2>My To-Do List</h2>
+  
+    <div class="addNew small-container">
+      <p>Add New Task For Today:</p>
+      <input type="text" placeholder="Add something ..." id="newTask">
+      <button id="addTask">Add To My List</button>
+    </div>
+  
+    <div class="incompleteList small-container">
+      <h3>Incomplete Tasks</h3>
+      <ul>
+        <li><input type="checkbox"><label>Shop in Bhatbhateni</label></li>
+        <li><input type="checkbox"><label>Buy saree for wedding</label></li>
+        <li><input type="checkbox"><label>Meet coding mentor</label></li>
+      </ul> 
+    </div>
+  
+    <div class="completeList small-container">
+      <h3>Completed Tasks</h3>
+      <ul>
+        <li><button class="delete">Delete Task</button>Pay electricity bills</li>
+      </ul>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
